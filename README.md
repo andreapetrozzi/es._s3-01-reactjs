@@ -1,27 +1,30 @@
+### Description
 Job Search Engine
 
 You are tasked with improving an existing project, a remote job search engine.
 Today the task is to divide the reducers and improve the cleanliness of the project.
 
-TASKS: (continue from where you left off previously)
+### TASKS:
 
-     1. Rewrite your action creators like we did in class,
-        writing them in a separate file.
-        Replace any type property written as a simple string with a constant.
-     2. Create two different reducers: one will keep storing the favorites,
-        while the other will be reserved to host the array of results deriving from the search.
-        To fill this portion of the Redux Store, move the fetch operation into a "special" action creator,
-        so as to dispatch the action containing the results only at the end of the asynchronous operation.
-     3. Keep the rest of the features intact,
-        and if you haven't already, provide the user with the ability to remove a business from their favorites list.
+1. Rewrite your action creators like we did in class,
+   writing them in a separate file.
+   Replace any type property written as a simple string with a constant.
+
+2. Create two different reducers: one will keep storing the favorites,
+   while the other will be reserved to host the array of results deriving from the search.
+   To fill this portion of the Redux Store, move the fetch operation into a "special" action creator,
+   so as to dispatch the action containing the results only at the end of the asynchronous operation.
+.
+3. Keep the rest of the features intact,
+   and if you haven't already, provide the user with the ability to remove a business from their favorites list.
 
 
-// Terminal
-// npm i bootstrap@4.6.1
-// npm i react-bootstrap@1.6.5
-// npm i react-router-dom
-// npm i @reduxjs/toolkit
-// npm i react-redux
+### Terminal Command:
+- `npm i bootstrap@4.6.1`;
+- `npm i react-bootstrap@1.6.5`;
+- `npm i react-router-dom`;
+- `npm i @reduxjs/toolkit`;
+- `npm i react-redux`.
 
 
 
